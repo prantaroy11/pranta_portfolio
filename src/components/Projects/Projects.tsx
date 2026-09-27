@@ -72,11 +72,8 @@ export default function Projects() {
                   ))}
                 </div>
                 <div className={styles.actions}>
-                  <a href={project.demo} target="_blank" rel="noopener noreferrer" className={styles.primaryBtn} style={{ textDecoration: 'none' }}>
-                    <ExternalLink size={18} /> Live demo
-                  </a>
-                  <a href={project.github} target="_blank" rel="noopener noreferrer" className={styles.iconBtn}>
-                    <Github size={20} />
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className={styles.primaryBtn} style={{ textDecoration: 'none', width: '100%', justifyContent: 'center' }}>
+                    <Github size={18} style={{ marginRight: '8px' }} /> View on GitHub
                   </a>
                 </div>
               </div>

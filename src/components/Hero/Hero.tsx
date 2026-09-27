@@ -39,7 +39,7 @@ export default function Hero() {
           </div>
 
           <h1 className={styles.title}>
-            Hey, I&apos;m Pranta<br /><span>Roy Joy</span>
+            Hey, I&apos;m Pranta<br /><span>Roy</span>
           </h1>
 
           <h2 className={styles.role}>&lt;{currentText}<span className={styles.cursor}>|</span>/&gt;</h2>
@@ -65,15 +65,15 @@ export default function Hero() {
 
           <div className={styles.stats}>
             <div className={styles.statCard}>
-              <div className={styles.statValue}>2+</div>
+              <div className={styles.statValue}>1+</div>
               <div className={styles.statLabel}>Years Building</div>
             </div>
             <div className={styles.statCard}>
-              <div className={styles.statValue}>15+</div>
+              <div className={styles.statValue}>5+</div>
               <div className={styles.statLabel}>Projects Shipped</div>
             </div>
             <div className={styles.statCard}>
-              <div className={styles.statValue}>2000+</div>
+              <div className={styles.statValue}>700+</div>
               <div className={styles.statLabel}>DSA Problems</div>
             </div>
           </div>

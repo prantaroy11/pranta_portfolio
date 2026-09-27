@@ -16,7 +16,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <ParticlesBackground />
-        {children}
+        <main style={{ position: 'relative', zIndex: 1 }}>
+          {children}
+        </main>
       </body>
     </html>
   );
